@@ -1,0 +1,107 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set a background color and text color */
+body {
+    background-color: #111;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header navigation */
+header {
+    background-color: #111;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Style the user profile */
+.user-profile {
+    display: flex;
+    align-items: center;
+}
+
+.user-profile img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+/* Style the hero section */
+.hero {
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #e50914;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+/* Style the featured content section */
+.featured-content {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.featured-content h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.movie-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Style the footer */
+footer {
+    background-color: #111;
+    text-align: center;
+    padding: 20px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    font-size: 0.8em;
+}
